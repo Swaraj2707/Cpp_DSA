@@ -7,15 +7,6 @@ public:
 	Node* next; // will store address of "next" node to whomesoever it will link 
 };
 
-void printList(Node* head) // function to print linked list
-{
-	Node* temp = head;  // "temp" pointer mai "head" node ka address daal diya
-
-	while (temp != NULL) {
-		cout << temp->data << " ";
-		temp = temp->next;
-	}
-}
 
 int main()
 {
@@ -31,7 +22,6 @@ int main()
 
 	third->data = 3; 
 	third->next = NULL;
-	printList(head); // will print 1 2 3
 
 	return 0;
 }
