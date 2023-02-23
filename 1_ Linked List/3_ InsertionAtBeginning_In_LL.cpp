@@ -13,7 +13,7 @@ class Node{
 };
 
 Node* insertAtStart(Node* head){
-    Node* new_node = new Node(50);
+    Node* new_node = new Node(50); //inserting 50 at starting of LL
     new_node->next = head;
     return new_node;     // since return type is "Node*"
 }
@@ -40,6 +40,6 @@ int main(){
 
     head = insertAtStart(head);   
 
-    printList(head);
+    printList(head); // print 50 10 20 30 40
 
 }
