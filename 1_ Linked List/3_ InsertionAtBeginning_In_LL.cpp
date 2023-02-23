@@ -6,7 +6,7 @@ class Node{
         int data;
         Node* next;
 
-        Node(int d){
+        Node(int d){ // parameterised constructor
             data = d;
             next = NULL;
         }
@@ -15,7 +15,7 @@ class Node{
 Node* insertAtStart(Node* head){
     Node* new_node = new Node(50);
     new_node->next = head;
-    return new_node;
+    return new_node;     // since return type is "Node*"
 }
 
 
