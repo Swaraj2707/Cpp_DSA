@@ -18,7 +18,7 @@ Node* deleteFromStart(Node* head){
 
 Node* deleteGivenNode(Node* head, int val){
     
-    if(head-> data == val){
+    if(head-> data == val){ // if we have to delete the starting node
         return head->next;
     }
 
