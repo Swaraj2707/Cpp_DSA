@@ -13,7 +13,7 @@ class Node {
 };
 
 class Queue {
-	// Define the data members
+   // Define the data members
    private:
    Node* head;
    Node* tail;
@@ -21,9 +21,9 @@ class Queue {
    
    public:
     Queue() {
-		// Implement the Constructor
-		head = NULL;
-		tail = NULL;
+	// Implement the Constructor
+	head = NULL;
+	tail = NULL;
         size = 0;
 	}
 	
